@@ -1,6 +1,6 @@
 # SCQA-BioBERT-BiGRU: A Hybrid Model for Medical QA
 
-Official source code and model weights for the paper:
+Official source code and model weights for the paper: 
 **"Innovative Multi-Model Technique for Medical Subject Classification and Answer Prediction"**
 
 This repository contains the Jupyter Notebook, analysis scripts, and final model weights required to reproduce the results presented in our manuscript.
