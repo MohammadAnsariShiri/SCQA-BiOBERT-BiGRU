@@ -9,13 +9,13 @@ This repository contains the Jupyter Notebook, analysis scripts, and final model
 
 This project implements a multi-task learning framework for medical question answering, designed to simultaneously perform **Subject Classification** and **Answer Prediction**.
 
-[cite_start]Our final proposed architecture, `SCQA-BioBERT-BiGRU`, is a hybrid model that leverages the domain-specific understanding of **BioBERT** [cite: 1605-1607] [cite_start]and the sequential modeling capabilities of a **BiGRU** layer [cite: 1149-1150]. The model is enhanced with an attention mechanism to aggregate sequential features and Focal Loss to address class imbalance.
+Our final proposed architecture, `SCQA-BioBERT-BiGRU`, is a hybrid model that leverages the domain-specific understanding of **BioBERT** [cite: 1605-1607] [cite_start]and the sequential modeling capabilities of a **BiGRU** layer. The model is enhanced with an attention mechanism to aggregate sequential features and Focal Loss to address class imbalance.
 
 ## 🏆 Key Findings: Ablation Study
 
 A core component of our research was a comprehensive 4-model ablation study to determine the optimal architecture. We compared four distinct configurations on the MedMCQA dataset using a fixed random seed (`seed=42`) for full reproducibility.
 
-[cite_start]Our findings (presented in **Table 2** of the paper [cite: 1687-1688]) confirm our central hypothesis: the hybrid **`BioBERT + BiGRU`** architecture provides the optimal performance on *both* tasks. Further complexity, such as additional semantic features (e.g., negation detection) or alternative recurrent layers (e.g., BRT), was found to hinder performance.
+[cite_start]Our findings (presented in **Table 2** of the paper) confirm our central hypothesis: the hybrid **`BioBERT + BiGRU`** architecture provides the optimal performance on *both* tasks. Further complexity, such as additional semantic features (e.g., negation detection) or alternative recurrent layers (e.g., BRT), was found to hinder performance.
 
 **Final Ablation Study Results (Test Set):**
 
@@ -66,7 +66,22 @@ This repository does not host the MedMCQA dataset due to its size and licensing.
 
 The final directory structure **must** look like this:
 
-SCQA-BiOBERT-BiGRU/ │ ├── data/ │ ├── train.json │ ├── dev.json │ └── test.json │ ├── model_outputs/ │ ├── Base_Model_BioBERT_Attention/ │ │ └── best_model_state.bin │ ├── BiGRU_Model_No_Feature/ │ │ └── best_model_state.bin │ └── ... (and 2 other model folders) │ ├── SCQA-BioBERT-BiGRU.ipynb ├── README.md ├── requirements.txt └── LICENSE
+SCQA-BioBERT-BiGRU/
+├── data/
+│   ├── train.json
+│   ├── dev.json
+│   └── test.json
+├── model_outputs/
+│   ├── Base_Model_BioBERT_Attention/
+│   │   └── best_model_state.bin
+│   ├── BiGRU_Model_No_Feature/
+│   │   └── best_model_state.bin
+│   └── ...
+├── SCQA-BioBERT-BiGRU.ipynb
+├── README.md
+├── requirements.txt
+└── LICENSE
+
 
 ### 3. How to Run
 
