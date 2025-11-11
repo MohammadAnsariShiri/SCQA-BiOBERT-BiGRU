@@ -24,7 +24,7 @@ A core component of our research was a comprehensive 4-model ablation study to d
 | **Base Model** | `BioBERT + Attention` | 80.81% | 83.29% |
 | **BiGRU Model (Ours)** | `BioBERT + BiGRU + Attn` | **81.13%** | **84.36%** |
 | **BiGRU + Negation** | `BioBERT + BiGRU + Attn + Negation` | 80.61% | 84.06% |
-| **BRT + Negation** | `BioBERT + BRT_Cell + Attn + Negation` | 79.89% | 83.45% |
+| **BRT Model** | `BioBERT + BRT_Cell + Attn + Negation` | 79.89% | 83.45% |
 
 ---
 
