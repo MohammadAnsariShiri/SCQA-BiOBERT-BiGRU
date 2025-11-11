@@ -1,0 +1,36 @@
+--- Practical Deployment Metrics ---
+Average Inference Time per Sample: 0.34 ms
+
+
+--- Overall Subject Classification ---
+Overall Subject Accuracy: 0.8025
+Overall Subject Precision: 0.8177
+Overall Subject Recall: 0.8025
+Overall Subject F1-Score: 0.8061
+
+
+--- Overall Answer Prediction Metrics ---
+Overall Answer Accuracy (Label-Based): 0.8406
+
+
+--- Per-Class Subject Classification Report ---
+                          precision    recall  f1-score   support
+
+                 Anatomy       0.67      0.88      0.76       259
+            Biochemistry       0.78      0.88      0.82       352
+                  Dental       0.95      0.83      0.89      1203
+Gynaecology & Obstetrics       0.88      0.80      0.84       532
+            Microbiology       0.66      0.81      0.73       167
+           Ophthalmology       0.82      0.84      0.83       177
+               Pathology       0.64      0.55      0.59       305
+              Pediatrics       0.64      0.75      0.69       190
+            Pharmacology       0.78      0.87      0.82       317
+              Physiology       0.80      0.76      0.78       388
+              Psychiatry       0.12      0.67      0.21         6
+               Radiology       0.77      0.71      0.74       119
+
+                accuracy                           0.80      4015
+               macro avg       0.71      0.78      0.73      4015
+            weighted avg       0.82      0.80      0.81      4015
+
+
