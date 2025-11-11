@@ -5,13 +5,13 @@ Official source code and model weights for the paper:
 
 This repository contains the Jupyter Notebook, analysis scripts, and final model weights required to reproduce the results presented in our manuscript.
 
-## 📝 Overview
+## Overview
 
 This project implements a multi-task learning framework for medical question answering, designed to simultaneously perform **Subject Classification** and **Answer Prediction**.
 
 Our final proposed architecture, `SCQA-BioBERT-BiGRU`, is a hybrid model that leverages the domain-specific understanding of **BioBERT** [cite: 1605-1607] [cite_start]and the sequential modeling capabilities of a **BiGRU** layer. The model is enhanced with an attention mechanism to aggregate sequential features and Focal Loss to address class imbalance.
 
-## 🏆 Key Findings: Ablation Study
+## Key Findings: Ablation Study
 
 A core component of our research was a comprehensive 4-model ablation study to determine the optimal architecture. We compared four distinct configurations on the MedMCQA dataset using a fixed random seed (`seed=42`) for full reproducibility.
 
@@ -28,7 +28,7 @@ A core component of our research was a comprehensive 4-model ablation study to d
 
 ---
 
-## 🚀 Reproducibility Guide
+## Reproducibility Guide
 
 Follow these steps precisely to reproduce the results reported in our paper.
 
@@ -104,7 +104,7 @@ To retrain all four models from scratch, run all cells in the notebook from top 
 
 ---
 
-## 📄 Citation
+## Citation
 
 If you find this work useful in your research, please cite our paper:
 
