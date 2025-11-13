@@ -75,7 +75,7 @@ To verify all tables and figures in the paper (Ablation Study, Per-Class reports
 1.  Open `SCQA-BioBERT-BiGRU.ipynb`.
 2.  Run all cells from the top (`# Imports`) down to `# Final Test Set Evaluation Functions`.
 3.  **SKIP** the cell `# Run Ablation Study Experiments` (this cell is for training and takes 10+ hours).
-4.  Run the **final cell** (`# --- 22. Run Final Evaluation on all 4 Models ---`).
+4.  Run the **final cell** (`# --- Run Final Evaluation on all 4 Models ---`).
 
 This final cell will load our pre-trained weights from the `model_outputs/` folder and reproduce all metrics reported in the paper.
 
