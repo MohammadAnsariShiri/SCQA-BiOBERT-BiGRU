@@ -64,25 +64,6 @@ This repository does not host the MedMCQA dataset due to its size and licensing.
 2.  **Create Folder:** Create a new folder named `data` in the root of this project.
 3.  **Place Files:** Place the `train.json`, `dev.json`, and `test.json` files inside the `data/` folder.
 
-The final directory structure **must** look like this:
-
-SCQA-BioBERT-BiGRU/
-├── data/
-│   ├── train.json
-│   ├── dev.json
-│   └── test.json
-├── model_outputs/
-│   ├── Base_Model_BioBERT_Attention/
-│   │   └── best_model_state.bin
-│   ├── BiGRU_Model_No_Feature/
-│   │   └── best_model_state.bin
-│   └── ...
-├── SCQA-BioBERT-BiGRU.ipynb
-├── README.md
-├── requirements.txt
-└── LICENSE
- 
-
 ### 3. How to Run
 
 The `SCQA-BioBERT-BiGRU.ipynb` notebook contains all code.
