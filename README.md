@@ -58,9 +58,9 @@ Follow these steps precisely to reproduce the results reported in our paper.
 
 ### 2. Dataset Setup
 
-This repository does not host the MedMCQA dataset due to its size and licensing. You must download it from the official source.
+This repository does not host the MedMCQA dataset due to its size and licensing. You'll need to download it from the official source.
 
-1.  [cite_start]**Download:** Download the dataset from [https://github.com/MedMCQA/MedMCQA](https://github.com/MedMCQA/MedMCQA) [cite: 2031-2032].
+1.  **Download:** Download the dataset from [https://github.com/MedMCQA/MedMCQA](https://github.com/MedMCQA/MedMCQA).
 2.  **Create Folder:** Create a new folder named `data` in the root of this project.
 3.  **Place Files:** Place the `train.json`, `dev.json`, and `test.json` files inside the `data/` folder.
 
