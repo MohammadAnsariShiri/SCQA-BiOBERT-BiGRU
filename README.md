@@ -68,7 +68,7 @@ This project requires **two** separate datasets. Both must be downloaded manuall
 
 **B. MMLU Dataset (for Generalizability Test)**
 
-1.  **Download:** Download the MMLU dataset from the official repository: [https://github.com/hendrycks/test](https://github.com/hendrycks/test). (This link is also provided in the paper as reference [45]).
+1.  **Download:** Download the MMLU dataset from the official repository: [https://github.com/hendrycks/test](https://github.com/hendrycks/test).
 2.  **Create Folder:** Create a folder named `mmlu_data` in the root of this project.
 3.  **Place Files:** Unzip the download and place the `test` folder (which contains the 57 `_test.csv` files) inside the `mmlu_data/` folder.
 
