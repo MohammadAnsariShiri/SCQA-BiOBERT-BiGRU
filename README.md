@@ -58,11 +58,19 @@ Follow these steps precisely to reproduce the results reported in our paper.
 
 ### 2. Dataset Setup
 
-This repository does not host the MedMCQA dataset due to its size and licensing. You must download it from the official source.
+This project requires **two** separate datasets. Both must be downloaded manually from their official sources.
 
-1.  [cite_start]**Download:** Download the dataset from [https://github.com/MedMCQA/MedMCQA](https://github.com/MedMCQA/MedMCQA) [cite: 2031-2032].
-2.  **Create Folder:** Create a new folder named `data` in the root of this project.
-3.  **Place Files:** Place the `train.json`, `dev.json`, and `test.json` files inside the `data/` folder.
+**A. MedMCQA Dataset (Primary)**
+
+1.  **Download:** Download the dataset from [https://github.com/MedMCQA/MedMCQA](https://github.com/MedMCQA/MedMCQA).
+2.  **Create Folder:** Create a folder named `data` in the root of this project.
+3.  **Place Files:** Place `train.json`, `dev.json`, and `test.json` inside the `data/` folder.
+
+**B. MMLU Dataset (for Generalizability Test)**
+
+1.  **Download:** Download the MMLU dataset from the official repository: [https://github.com/hendrycks/test](https://github.com/hendrycks/test). (This link is also provided in the paper as reference [45]).
+2.  **Create Folder:** Create a folder named `mmlu_data` in the root of this project.
+3.  **Place Files:** Unzip the download and place the `test` folder (which contains the 57 `_test.csv` files) inside the `mmlu_data/` folder.
 
 ### 3. How to Run
 
